@@ -1,0 +1,13 @@
+1. 	Baixar o Anaconda em: https://www.anaconda.com/distribution/
+1.1	Escolher a versão de acordo com o sistema operacional (Linux, MaxOS, Windows)
+2.	Instalar o git: https://git-scm.com/downloads
+3.	Abrir o terminal (ou git bash).
+4.	Clonar o repositório: git clone <repo_git>
+5.	Instalar o Anaconda. No caso de MacOS e Linux, quando solicitado ao final da instalação "Do you wish the installer to prepend the Anaconda3 install location to PATH .../.bashrc ?", digitar yes e dar enter.
+6.	No caso de MacOS e Linux, abrir o terminal e verificar se comando conda -V retorna alguma mensagem como "conda x.x.x". Caso não funcione, reinstale e verifique novamente o passo 5. No caso de Windows, ir no menu iniciar e procurar por Ananconda Prompt.
+7.	(Instrução mais detalhada na hora de fazer) No terminal (ou no Anaconda Prompt), digitar o comando cd pasta, para ir até a pasta onde o repositório foi clonado (pasta raiz do projeto).
+8.	Digitar o comando conda create -n python-hands-on pip e confirmar (Y).
+9.	Digitar o comando conda activate python-hands-on
+10.	Digitar o comando pip install -r requirements.txt e confirmar (Y).
+11.	Digitar o comando python -m ipykernel install --user --name python-hands-on --display-name "Python (Hands-On)" e confirmar
+12.	Digitar o comando jupyter notebook
